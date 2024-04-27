@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: administration-service
+    name-openapi: administration
+
+app: 
+  message:
+    Copyright by ST2i 2023 ${spring.application.name}
+
+## Assets config
+assets:
+  pdf-header: classpath:config/exportAssets/portrait.png
+
+springdoc:
+  version: '@springdoc.version@'
+
+application:
+  title:  Administration
+  version:  1.0.0
+
+  

@@ -1,0 +1,11 @@
+  ____  ____   ___  ____         ____       _                           
+ |  _ \|  _ \ / _ \|  _ \       / ___| __ _| |_ _____      ____ _ _   _ 
+ | |_) | |_) | | | | | | |_____| |  _ / _` | __/ _ \ \ /\ / / _` | | | |
+ |  __/|  _ <| |_| | |_| |_____| |_| | (_| | ||  __/\ V  V / (_| | |_| |
+ |_|   |_| \_\\___/|____/       \____|\__,_|\__\___| \_/\_/ \__,_|\__, |
+                                                                  |___/ 
+                                                                                                                            
+
+Application Name: ${application.title}
+Application Version: ${application.version}
+Application Active Profile: ${spring.profiles.active}

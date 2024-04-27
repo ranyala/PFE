@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.7.4</version>
+		<relativePath />
+	</parent>
+	<groupId>tn.com.st2i</groupId>
+	<artifactId>administration</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+	<name>Administration</name>
+
+	<properties>
+		<java.version>15</java.version>
+		<spring-cloud.version>2021.0.4</spring-cloud.version>
+		<springdoc-openapi.version>1.6.11</springdoc-openapi.version>
+		<json.version>20210307</json.version>
+		<maven.version>3.2.0</maven.version>
+	</properties>
+
+	<modules>
+		<module>administration-persistence</module>
+		<module>administration-business</module>
+		<module>administration-common</module>
+		<module>administration-presentation</module>
+	</modules>
+
+	<dependencies>
+		<!-- Spring Boot dependencies -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>org.junit.vintage</groupId>
+					<artifactId>junit-vintage-engine</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<!-- End spring Boot dependencies -->
+
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>${json.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<!-- OpenApi -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-webmvc-core</artifactId>
+			<version>${springdoc-openapi.version}</version>
+		</dependency>
+		<!-- End OpenApi -->
+
+		<!-- Micrometer -->
+		<!-- <dependency> -->
+		<!-- <groupId>io.micrometer</groupId> -->
+		<!-- <artifactId>micrometer-core</artifactId> -->
+		<!-- </dependency> -->
+
+		<!-- <dependency> -->
+		<!-- <groupId>io.micrometer</groupId> -->
+		<!-- <artifactId>micrometer-registry-prometheus</artifactId> -->
+		<!-- </dependency> -->
+
+		<!-- <dependency> -->
+		<!-- <groupId>io.micrometer</groupId> -->
+		<!-- <artifactId>micrometer-registry-influx</artifactId> -->
+		<!-- </dependency> -->
+		<!-- End Micrometer -->
+
+
+		<!-- start camunda -->
+
+		<!-- <dependency> -->
+		<!-- <groupId>org.camunda.connect</groupId> -->
+		<!-- <artifactId>camunda-connect-http-client</artifactId> -->
+		<!-- <version>1.3.0</version> -->
+		<!-- </dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.camunda.connect</groupId> -->
+		<!-- <artifactId>camunda-connect-soap-http-client</artifactId> -->
+		<!-- <version>1.3.0</version> -->
+		<!-- </dependency> -->
+
+		<!-- <dependency> -->
+		<!-- <groupId>org.camunda.bpm</groupId> -->
+		<!-- <artifactId>camunda-engine-plugin-connect</artifactId> -->
+		<!-- <version>7.12.0</version> -->
+		<!-- </dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.camunda.connect</groupId> -->
+		<!-- <artifactId>camunda-connect-core</artifactId> -->
+		<!-- <version>1.5.2</version> -->
+		<!-- </dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.camunda.spin</groupId> -->
+		<!-- <artifactId>camunda-spin-core</artifactId> -->
+		<!-- <version>1.9.0</version> -->
+		<!-- </dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.camunda.spin</groupId> -->
+		<!-- <artifactId>camunda-spin-dataformat-json-jackson</artifactId> -->
+		<!-- <version>1.9.0</version> -->
+		<!-- </dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.camunda.spin</groupId> -->
+		<!-- <artifactId>camunda-spin-dataformat-xml-dom</artifactId> -->
+		<!-- <version>1.9.0</version> -->
+		<!-- </dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.camunda.bpm</groupId> -->
+		<!-- <artifactId>camunda-engine-plugin-spin</artifactId> -->
+		<!-- <version>7.12.0</version> -->
+
+		<!-- </dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.camunda.connect</groupId> -->
+		<!-- <artifactId>camunda-connect-http-client</artifactId> -->
+		<!-- <version>1.3.0</version> -->
+		<!-- </dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.camunda.connect</groupId> -->
+		<!-- <artifactId>camunda-connect-soap-http-client</artifactId> -->
+		<!-- <version>1.3.0</version> -->
+		<!-- </dependency> -->
+
+		<!-- <dependency> -->
+		<!-- <groupId>org.camunda.bpm</groupId> -->
+		<!-- <artifactId>camunda-external-task-client</artifactId> -->
+		<!-- <version>1.4.0</version> -->
+		<!-- </dependency> -->
+		<!-- end camunda -->
+
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-dependency-plugin</artifactId>
+			<version>${maven.version}</version>
+		</dependency>
+
+	</dependencies>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+
+	</dependencyManagement>
+	<build>
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.4</version><!--$NO-MVN-MAN-VER$ -->
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+</project>
+

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<statusListener
+		class="ch.qos.logback.core.status.NopStatusListener" />
+
+	<include
+		resource="org/springframework/boot/logging/logback/defaults.xml" />
+
+	<springProfile name="prod,PRprod,test,dev">
+
+		<property name="LOG_FILE_INFO"
+			value="log/administration-info.log" />
+		<property name="LOG_FILE_ERROR"
+			value="log/administration-error.log" />
+
+		<include
+			resource="org/springframework/boot/logging/logback/file-appender.xml" />
+
+		<appender name="Console"
+			class="ch.qos.logback.core.ConsoleAppender">
+			<layout class="ch.qos.logback.classic.PatternLayout">
+				<Pattern>
+					%black(%d{ISO8601}) %highlight(%-5level) [%blue(%t)]
+					%yellow(%C{1.}): %msg%n%throwable
+				</Pattern>
+			</layout>
+		</appender>
+		<appender name="INFO_FILE"
+			class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<rollingPolicy
+				class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<fileNamePattern>log/administration-info.%d{yyyy-MM-dd}.log
+				</fileNamePattern>
+				<maxHistory>90</maxHistory>
+				<totalSizeCap>3GB</totalSizeCap>
+			</rollingPolicy>
+			<filter class="ch.qos.logback.classic.filter.LevelFilter">
+				<level>INFO</level>
+				<onMatch>ACCEPT</onMatch>
+				<onMismatch>DENY</onMismatch>
+			</filter>
+
+
+
+			<encoder>
+				<pattern>%d{dd-MM-yyyy HH:mm:ss.SSSS}|%-5level|%msg%n</pattern>
+			</encoder>
+		</appender>
+
+		<appender name="ERROR_FILE"
+			class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<rollingPolicy
+				class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<fileNamePattern>log/administration-error.%d{yyyy-MM-dd}.log
+				</fileNamePattern>
+				<maxHistory>90</maxHistory>
+				<totalSizeCap>3GB</totalSizeCap>
+			</rollingPolicy>
+			<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+				<level>ERROR</level>
+			</filter>
+			<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+				<level>INFO</level>
+			</filter>
+			<encoder>
+				<pattern>%d{dd-MM-yyyy HH:mm:ss.SSSS}|%-5level|%msg%n</pattern>
+			</encoder>
+		</appender>
+
+
+		<root level="ERROR">
+			<appender-ref ref="ERROR_FILE" />
+		</root>
+		<root level="INFO">
+			<appender-ref ref="INFO_FILE" />
+		</root>
+
+<!-- 		<logger name="org.springframework" level="OFF" /> -->
+<!-- 		<logger name="org.apache" level="OFF" /> -->
+<!-- 		<logger name="com.netflix" level="OFF" /> -->
+<!-- 		<logger name="com.amazonaws" level="OFF" /> -->
+<!-- 		<logger name="com.hazelcast" level="OFF" /> -->
+<!-- 		<logger name="com.zaxxer" level="OFF" /> -->
+<!-- 		<logger name="io.netty" level="OFF" /> -->
+<!-- 		<logger name="net.spy.memcached" level="OFF" /> -->
+<!-- 		<logger name="org.jboss" level="OFF" /> -->
+<!-- 		<logger name="org.apache.kafka" level="OFF" /> -->
+<!-- 		<logger name="org.apache.zookeeper" level="OFF" /> -->
+<!-- 		<logger name="org.eclipse.jetty" level="OFF" /> -->
+<!-- 		<logger name="org.hibernate" level="OFF" /> -->
+<!-- 		<logger name="org.jboss" level="OFF" /> -->
+<!-- 		<logger name="org.jgroups" level="OFF" /> -->
+<!-- 		<logger name="org.xnio" level="OFF" /> -->
+<!-- 		<logger name="ch.qos.logback" level="OFF" /> -->
+<!-- 		<logger name="org.slf4j" level="OFF" /> -->
+<!-- 		<logger name="org.apache.commons.logging" level="OFF" /> -->
+<!-- 		<logger name="sun.rmi" level="OFF" /> -->
+<!-- 		<logger name="javax.management.remote" level="OFF" /> -->
+<!-- 		<logger name="com.sun.jmx.remote" level="OFF" /> -->
+<!-- 		<logger name="java.rmi" level="OFF" /> -->
+<!-- 		<logger name="javax.management" level="OFF" /> -->
+<!-- 		<logger name="sun.management" level="OFF" /> -->
+<!-- 		<logger name="org.eclipse.jetty" level="OFF" /> -->
+<!-- 		<logger -->
+<!-- 			name="org.eclipse.jetty.util.component.AbstractLifeCycle" level="OFF" /> -->
+<!-- 		<logger name="org.eclipse.jetty.server.handler.ContextHandler" -->
+<!-- 			level="OFF" /> -->
+<!-- 		<logger name="org.eclipse.jetty.server.Server" level="OFF" /> -->
+<!-- 		<logger -->
+<!-- 			name="org.eclipse.jetty.util.component.ContainerLifeCycle" -->
+<!-- 			level="OFF" /> -->
+<!-- 		<logger name="com.zaxxer.hikari" level="OFF" /> -->
+<!-- 		<logger name="io.undertow" level="OFF" /> -->
+<!-- 		<logger name="org.springframework.web" level="OFF" /> -->
+<!-- 		<logger name="org.springframework.web.client.RestTemplate" -->
+<!-- 			level="OFF" /> -->
+<!-- 		<logger -->
+<!-- 			name="org.springframework.boot.actuate.autoconfigure.metrics" -->
+<!-- 			level="OFF" /> -->
+<!-- 		<logger -->
+<!-- 			name="org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration" -->
+<!-- 			level="OFF" /> -->
+<!-- 		<logger name="org.springframework.boot.autoconfigure.mongo" -->
+<!-- 			level="OFF" /> -->
+<!-- 		<logger -->
+<!-- 			name="org.springframework.boot.autoconfigure.mongo.embedded" -->
+<!-- 			level="OFF" /> -->
+<!-- 		<logger -->
+<!-- 			name="org.springframework.boot.autoconfigure.web.servlet" level="OFF" /> -->
+<!-- 		<logger -->
+<!-- 			name="org.springframework.boot.web.embedded.tomcat.TomcatWebServer" -->
+<!-- 			level="OFF" /> -->
+<!-- 		<logger name="org.springframework.boot.autoconfigure.jms" -->
+<!-- 			level="OFF" /> -->
+<!-- 		<logger -->
+<!-- 			name="org.springframework.boot.autoconfigure.jms.artemis" level="OFF" /> -->
+<!-- 		<logger -->
+<!-- 			name="org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener" -->
+<!-- 			level="OFF" /> -->
+
+
+		<!-- <turboFilter class="ch.qos.logback.classic.turbo.MarkerFilter"> <Marker>INFO_MANUEL</Marker> 
+			<onMismatch>DENY</onMismatch> </turboFilter> -->
+
+
+	</springProfile>
+
+	<springProfile name="prod,dev,test,PRprod">
+		<include
+			resource="org/springframework/boot/logging/logback/console-appender.xml" />
+		<root level="INFO">
+			<appender-ref ref="CONSOLE" />
+		</root>
+
+
+
+	</springProfile>
+
+	<jmxConfigurator />
+</configuration>
+
+	
+
+	

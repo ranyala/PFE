@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="tn.com.st2i.project.etablissement.model.region"/>
+    <fullyQualifiedTypeName name="tn.com.st2i.project.etablissement.model.etablissement"/>
+    <fullyQualifiedTypeName name="tn.com.st2i.project.etablissement.model.annéeScolaire"/>
+    <fullyQualifiedTypeName name="tn.com.st2i.project.tools.model.SendObject"/>
+    <fullyQualifiedTypeName name="java.tn.com.st2i.project.tools.model.Sort"/>
+    <fullyQualifiedTypeName name="java.tn.com.st2i.project.tools.model.Pagination"/>
+    <fullyQualifiedTypeName name="java.tn.com.st2i.project.tools.model.CriteriaSearch"/>
+    <fullyQualifiedTypeName name="java.tn.com.st2i.project.tools.model.ColValue"/>
+    <fullyQualifiedTypeName name="java.tn.com.st2i.project.tools.UtilsDao"/>
+    <fullyQualifiedTypeName name="java.tn.com.st2i.project.tools.ConstanteDao"/>
+    <fullyQualifiedTypeName name="java.tn.com.st2i.project.tools.model.DaoObject"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="tn.com.st2i.project.common.dao.ICommonDao"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="tn.com.st2i.project.etablissement.service.IclasseService"/>
+    <fullyQualifiedTypeName name="java.tn.com.st2i.project.tools.model.SearchObject"/>
+    <fullyQualifiedTypeName name="tn.com.st2i.project.common.service.ICommonService"/>
+    <fullyQualifiedTypeName name="tn.com.st2i.project.etablissement.Repository.IclasseRepository"/>
+    <fullyQualifiedTypeName name="tn.com.st2i.project.etablissement.model.classe"/>
+    <fullyQualifiedTypeName name="java.tn.com.st2i.project.tools.model.SendObject"/>
+    <fullyQualifiedTypeName name="java.tn.com.st2i.project.tools.UtilsWs"/>
+    <fullyQualifiedTypeName name="java.tn.com.st2i.project.tools.ConstanteService"/>
+    <fullyQualifiedTypeName name="java.tn.com.st2i.project.tools.ConstanteWs"/>
+</qualifiedTypeNameHistroy>

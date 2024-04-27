@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy source folder &apos;java&apos; to &apos;etablissement-common&apos;&#x0D;&#x0A;- Original project: &apos;administration-common&apos;&#x0D;&#x0A;- Destination element: &apos;etablissement-common&apos;&#x0D;&#x0A;- Original element: &apos;administration-common/src/main/java&apos;" description="Copy source folder" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" flags="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyRoots" roots="1" stamp="1710413393266" target="/etablissement-common" version="1.0"/>
+</session>

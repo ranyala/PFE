@@ -1,0 +1,58 @@
+#Connection To database
+spring:
+  datasource:
+    url: jdbc:postgresql://172.16.1.51:5432/pfs_d
+
+    username: postgres
+    password: pfsuser
+  
+    hikari:
+      maximumPoolSize: 5
+      connectionTimeout: 3000
+
+
+
+# The SQL dialect makes Hibernate generate better SQL for the chosen database
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        temp:
+          use_jdbc_metadata_defaults: false
+
+# Hibernate ddl auto (create, create-drop, validate, update)
+    hibernate:
+      ddl-auto: none
+
+## Banner config
+  banner:
+    location: classpath:config/banner/banner-dev.txt
+  main:
+    log-startup-info: false
+  output:
+    ansi:
+      enabled: always
+
+# Server
+server:
+  port: 8063
+
+# Configuration swagger
+springdoc:
+  swagger-ui:
+    operationsSorter: method
+    default-models-expand-depth: 0
+  packages-to-scan: tn.com.st2i
+  model-and-view-allowed: true
+  cache:
+    disabled: true  
+
+# Connection to eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.16.1.9:8761/eureka
+  instance:
+    preferIpAddress: true
+
+

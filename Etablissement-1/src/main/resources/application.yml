@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: Etablissement-service
+    name-openapi: Etablissement
+
+app:
+  message:
+    Copyright by ST2i 2023 ${spring.application.name}
+
+## Assets config
+assets:
+  pdf-header: classpath:config/exportAssets/portrait.png
+
+springdoc:
+  version: '@springdoc.version@'
+
+application:
+  title:  Etablissement
+  version:  1.0.0
+
+# Connection to eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka
+  instance:
+    preferIpAddress: true
+

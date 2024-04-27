@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move source folder &apos;test-annotations&apos; to &apos;src&apos;&#x0D;&#x0A;- Original project: &apos;administration-persistence&apos;&#x0D;&#x0A;- Destination element: &apos;src&apos;&#x0D;&#x0A;- Original element: &apos;administration-persistence/target/generated-test-sources/test-annotations&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move source folder" element1="/target\/generated-test-sources\/test-annotations" flags="6" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveRoots" roots="1" stamp="1709033135783" target="src" version="1.0"/>
+</session>

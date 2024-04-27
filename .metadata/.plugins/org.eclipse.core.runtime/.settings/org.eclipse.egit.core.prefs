@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=C\:\\workspace\\back\\administration\\.git;C\:\\workspace\\back\\eureka\\.git;C\:\\workspace\\back\\gateway\\.git;
+GitRepositoriesView.GitDirectories.relative=administration\\.git;eureka\\.git;gateway\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1
