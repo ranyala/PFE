@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: administration-service
+    name-openapi: administration
+
+## Assets config
+assets:
+  pdf-header: classpath:config/exportAssets/portrait.png
+
+springdoc:
+  version: '@springdoc.version@'
+
+application:
+  title:  Administration
+  version:  1.0.0
+

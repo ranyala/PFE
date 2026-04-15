@@ -1,0 +1,45 @@
+26-03-2026 21:16:23.0216|INFO |The Class-Path manifest attribute in C:\Users\rania\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+26-03-2026 21:16:23.0219|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+26-03-2026 21:16:23.0220|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+26-03-2026 21:16:26.0027|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26-03-2026 21:16:26.0456|INFO |Finished Spring Data repository scanning in 413 ms. Found 14 JPA repository interfaces.
+26-03-2026 21:16:27.0059|INFO |BeanFactory id=a639bb80-ea1a-3ad9-a3f4-e7868f41c1e4
+26-03-2026 21:16:28.0979|INFO |Tomcat initialized with port(s): 8060 (http)
+26-03-2026 21:16:28.0994|INFO |Starting service [Tomcat]
+26-03-2026 21:16:28.0996|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+26-03-2026 21:16:29.0600|INFO |At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-03-2026 21:16:29.0612|INFO |Initializing Spring embedded WebApplicationContext
+26-03-2026 21:16:29.0612|INFO |Root WebApplicationContext: initialization completed in 6391 ms
+26-03-2026 21:16:30.0159|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+26-03-2026 21:16:30.0249|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+26-03-2026 21:16:30.0505|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+26-03-2026 21:16:30.0685|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+26-03-2026 21:16:31.0713|INFO |HikariPool-1 - Starting...
+26-03-2026 21:16:31.0888|INFO |HikariPool-1 - Start completed.
+26-03-2026 21:16:32.0011|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-03-2026 21:16:32.0011|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+26-03-2026 21:16:35.0674|INFO |Eureka HTTP Client uses RestTemplate.
+26-03-2026 21:16:35.0763|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+26-03-2026 21:16:35.0798|INFO |Setting initial instance status as: STARTING
+26-03-2026 21:16:35.0837|INFO |Initializing Eureka in region us-east-1
+26-03-2026 21:16:35.0868|INFO |Resolving eureka endpoints via configuration
+26-03-2026 21:16:35.0927|INFO |Disable delta property : false
+26-03-2026 21:16:35.0927|INFO |Single vip registry refresh property : null
+26-03-2026 21:16:35.0927|INFO |Force full registry fetch : false
+26-03-2026 21:16:35.0927|INFO |Application is null : false
+26-03-2026 21:16:35.0927|INFO |Registered Applications size is zero : true
+26-03-2026 21:16:35.0928|INFO |Application version is -1: true
+26-03-2026 21:16:35.0928|INFO |Getting all instance registry info from the eureka server
+26-03-2026 21:16:36.0292|INFO |The response status is 200
+26-03-2026 21:16:36.0295|INFO |Starting heartbeat executor: renew interval is: 30
+26-03-2026 21:16:36.0298|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+26-03-2026 21:16:36.0303|INFO |Discovery Client initialized at timestamp 1774556196303 with initial instances count: 1
+26-03-2026 21:16:36.0305|INFO |Registering application ADMINISTRATION-SERVICE with eureka with status UP
+26-03-2026 21:16:36.0306|INFO |Saw local status change event StatusChangeEvent [timestamp=1774556196306, current=UP, previous=STARTING]
+26-03-2026 21:16:36.0310|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060: registering service...
+26-03-2026 21:16:36.0379|INFO |Tomcat started on port(s): 8060 (http) with context path ''
+26-03-2026 21:16:36.0380|INFO |Updating port to 8060
+26-03-2026 21:16:36.0388|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060 - registration status: 204
+26-03-2026 21:16:36.0408|INFO |Starting Completed ...
+26-03-2026 21:21:35.0933|INFO |Resolving eureka endpoints via configuration
+26-03-2026 21:26:35.0941|INFO |Resolving eureka endpoints via configuration

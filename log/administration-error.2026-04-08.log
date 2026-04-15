@@ -1,0 +1,171 @@
+08-04-2026 00:03:23.0770|ERROR|DiscoveryClient_ETABLISSEMENT-SERVICE/RANIA:etablissement-service:8063 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+08-04-2026 00:03:24.0118|ERROR|DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+08-04-2026 18:12:35.0964|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:12:36.0138|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:55:14.0923|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:55:24.0779|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:55:38.0040|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:55:38.0195|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:55:38.0252|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:56:05.0999|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:56:06.0055|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:57:09.0044|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:57:29.0704|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:58:30.0076|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:58:30.0134|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:58:30.0194|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 18:58:53.0049|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 19:00:51.0114|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 19:01:04.0615|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 19:01:04.0662|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 19:01:04.0721|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 19:02:31.0244|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 19:02:53.0678|ERROR|DiscoveryClient_ETABLISSEMENT-SERVICE/RANIA:etablissement-service:8063 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+08-04-2026 19:02:53.0771|ERROR|DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+08-04-2026 19:07:03.0922|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 19:07:04.0062|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 19:07:50.0167|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 19:08:05.0645|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 19:14:27.0958|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 20:09:30.0269|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 20:09:30.0309|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 20:11:30.0020|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 20:11:38.0996|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 20:13:09.0597|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 20:13:17.0238|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 20:16:44.0396|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 20:17:00.0629|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 20:17:11.0887|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 21:51:33.0295|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 21:51:33.0333|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 21:59:04.0259|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 21:59:12.0190|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 22:00:33.0970|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 22:00:38.0323|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 22:01:51.0239|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 22:01:55.0648|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+08-04-2026 22:02:05.0211|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query

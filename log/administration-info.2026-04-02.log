@@ -1,0 +1,247 @@
+02-04-2026 00:01:24.0591|INFO |Resolving eureka endpoints via configuration
+02-04-2026 00:06:24.0627|INFO |Resolving eureka endpoints via configuration
+02-04-2026 00:11:24.0641|INFO |Resolving eureka endpoints via configuration
+02-04-2026 00:16:24.0670|INFO |Resolving eureka endpoints via configuration
+02-04-2026 00:21:24.0678|INFO |Resolving eureka endpoints via configuration
+02-04-2026 00:26:24.0688|INFO |Resolving eureka endpoints via configuration
+02-04-2026 00:31:24.0702|INFO |Resolving eureka endpoints via configuration
+02-04-2026 00:36:24.0720|INFO |Resolving eureka endpoints via configuration
+02-04-2026 00:41:24.0730|INFO |Resolving eureka endpoints via configuration
+02-04-2026 00:46:24.0733|INFO |Resolving eureka endpoints via configuration
+02-04-2026 00:47:18.0783|INFO |Unregistering application ADMINISTRATION-SERVICE with eureka with status DOWN
+02-04-2026 00:47:18.0783|INFO |Saw local status change event StatusChangeEvent [timestamp=1775087238783, current=DOWN, previous=UP]
+02-04-2026 00:47:18.0785|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060: registering service...
+02-04-2026 00:47:18.0880|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060 - registration status: 204
+02-04-2026 00:47:18.0880|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+02-04-2026 00:47:18.0895|INFO |HikariPool-1 - Shutdown initiated...
+02-04-2026 00:47:18.0911|INFO |HikariPool-1 - Shutdown completed.
+02-04-2026 00:47:18.0914|INFO |Shutting down DiscoveryClient ...
+02-04-2026 00:47:21.0938|INFO |Unregistering ...
+02-04-2026 00:47:21.0945|INFO |Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://127.0.0.1:8761/eureka/} exception=I/O error on DELETE request for "http://127.0.0.1:8761/eureka/apps/ADMINISTRATION-SERVICE/RANIA:administration-service:8060": Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://127.0.0.1:8761/eureka/apps/ADMINISTRATION-SERVICE/RANIA:administration-service:8060": Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 37 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 50 more
+
+02-04-2026 00:47:21.0953|INFO |Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://127.0.0.1:8761/eureka/}, exception=I/O error on DELETE request for "http://127.0.0.1:8761/eureka/apps/ADMINISTRATION-SERVICE/RANIA:administration-service:8060": Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://127.0.0.1:8761/eureka/apps/ADMINISTRATION-SERVICE/RANIA:administration-service:8060": Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 38 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 51 more
+
+02-04-2026 00:47:21.0960|INFO |Completed shut down of DiscoveryClient
+02-04-2026 17:24:01.0979|INFO |The Class-Path manifest attribute in C:\Users\rania\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+02-04-2026 17:24:01.0991|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02-04-2026 17:24:01.0992|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02-04-2026 17:24:08.0391|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02-04-2026 17:24:09.0465|INFO |Finished Spring Data repository scanning in 1035 ms. Found 14 JPA repository interfaces.
+02-04-2026 17:24:11.0099|INFO |BeanFactory id=a639bb80-ea1a-3ad9-a3f4-e7868f41c1e4
+02-04-2026 17:24:14.0098|INFO |Tomcat initialized with port(s): 8060 (http)
+02-04-2026 17:24:14.0147|INFO |Starting service [Tomcat]
+02-04-2026 17:24:14.0153|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+02-04-2026 17:24:15.0733|INFO |At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-04-2026 17:24:15.0755|INFO |Initializing Spring embedded WebApplicationContext
+02-04-2026 17:24:15.0757|INFO |Root WebApplicationContext: initialization completed in 13761 ms
+02-04-2026 17:24:17.0084|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+02-04-2026 17:24:17.0495|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+02-04-2026 17:24:18.0400|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02-04-2026 17:24:19.0106|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+02-04-2026 17:24:23.0889|INFO |HikariPool-1 - Starting...
+02-04-2026 17:24:24.0563|INFO |HikariPool-1 - Start completed.
+02-04-2026 17:24:24.0925|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-04-2026 17:24:24.0978|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-04-2026 17:24:40.0663|INFO |Eureka HTTP Client uses RestTemplate.
+02-04-2026 17:24:41.0251|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+02-04-2026 17:24:41.0511|INFO |Setting initial instance status as: STARTING
+02-04-2026 17:24:41.0767|INFO |Initializing Eureka in region us-east-1
+02-04-2026 17:24:41.0796|INFO |Resolving eureka endpoints via configuration
+02-04-2026 17:24:41.0944|INFO |Disable delta property : false
+02-04-2026 17:24:41.0946|INFO |Single vip registry refresh property : null
+02-04-2026 17:24:41.0949|INFO |Force full registry fetch : false
+02-04-2026 17:24:41.0949|INFO |Application is null : false
+02-04-2026 17:24:41.0949|INFO |Registered Applications size is zero : true
+02-04-2026 17:24:41.0949|INFO |Application version is -1: true
+02-04-2026 17:24:41.0951|INFO |Getting all instance registry info from the eureka server
+02-04-2026 17:24:44.0432|INFO |The response status is 200
+02-04-2026 17:24:44.0444|INFO |Starting heartbeat executor: renew interval is: 30
+02-04-2026 17:24:44.0456|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+02-04-2026 17:24:44.0477|INFO |Discovery Client initialized at timestamp 1775147084474 with initial instances count: 0
+02-04-2026 17:24:44.0489|INFO |Registering application ADMINISTRATION-SERVICE with eureka with status UP
+02-04-2026 17:24:44.0492|INFO |Saw local status change event StatusChangeEvent [timestamp=1775147084492, current=UP, previous=STARTING]
+02-04-2026 17:24:44.0499|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060: registering service...
+02-04-2026 17:24:44.0659|INFO |Tomcat started on port(s): 8060 (http) with context path ''
+02-04-2026 17:24:44.0661|INFO |Updating port to 8060
+02-04-2026 17:24:44.0795|INFO |Starting Completed ...
+02-04-2026 17:24:44.0950|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060 - registration status: 204
+02-04-2026 17:25:14.0453|INFO |Disable delta property : false
+02-04-2026 17:25:14.0455|INFO |Single vip registry refresh property : null
+02-04-2026 17:25:14.0455|INFO |Force full registry fetch : false
+02-04-2026 17:25:14.0457|INFO |Application is null : false
+02-04-2026 17:25:14.0457|INFO |Registered Applications size is zero : true
+02-04-2026 17:25:14.0459|INFO |Application version is -1: false
+02-04-2026 17:25:14.0459|INFO |Getting all instance registry info from the eureka server
+02-04-2026 17:25:14.0540|INFO |The response status is 200
+02-04-2026 17:29:12.0114|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+02-04-2026 17:29:12.0115|INFO |Initializing Servlet 'dispatcherServlet'
+02-04-2026 17:29:12.0118|INFO |Completed initialization in 3 ms
+02-04-2026 17:29:13.0112|INFO |Init duration for springdoc-openapi is: 906 ms
+02-04-2026 17:29:41.0972|INFO |Resolving eureka endpoints via configuration
+02-04-2026 17:34:41.0983|INFO |Resolving eureka endpoints via configuration
+02-04-2026 17:39:41.0708|INFO |Init duration for springdoc-openapi is: 572 ms
+02-04-2026 17:39:41.0986|INFO |Resolving eureka endpoints via configuration
+02-04-2026 17:44:41.0992|INFO |Resolving eureka endpoints via configuration
+02-04-2026 17:49:42.0006|INFO |Resolving eureka endpoints via configuration
+02-04-2026 17:54:42.0008|INFO |Resolving eureka endpoints via configuration
+02-04-2026 17:59:42.0023|INFO |Resolving eureka endpoints via configuration
+02-04-2026 18:04:42.0034|INFO |Resolving eureka endpoints via configuration
+02-04-2026 18:09:42.0050|INFO |Resolving eureka endpoints via configuration
+02-04-2026 18:14:42.0060|INFO |Resolving eureka endpoints via configuration
+02-04-2026 18:19:42.0065|INFO |Resolving eureka endpoints via configuration
+02-04-2026 18:24:42.0081|INFO |Resolving eureka endpoints via configuration
+02-04-2026 18:29:42.0098|INFO |Resolving eureka endpoints via configuration
+02-04-2026 18:34:42.0113|INFO |Resolving eureka endpoints via configuration
+02-04-2026 18:39:42.0116|INFO |Resolving eureka endpoints via configuration
+02-04-2026 18:44:42.0120|INFO |Resolving eureka endpoints via configuration
+02-04-2026 18:49:42.0122|INFO |Resolving eureka endpoints via configuration
+02-04-2026 18:54:42.0141|INFO |Resolving eureka endpoints via configuration
+02-04-2026 18:59:42.0147|INFO |Resolving eureka endpoints via configuration
+02-04-2026 19:04:42.0161|INFO |Resolving eureka endpoints via configuration
+02-04-2026 19:09:42.0177|INFO |Resolving eureka endpoints via configuration
+02-04-2026 19:14:42.0180|INFO |Resolving eureka endpoints via configuration
+02-04-2026 19:19:42.0193|INFO |Resolving eureka endpoints via configuration
+02-04-2026 19:24:42.0207|INFO |Resolving eureka endpoints via configuration
+02-04-2026 19:29:42.0209|INFO |Resolving eureka endpoints via configuration
+02-04-2026 19:34:42.0214|INFO |Resolving eureka endpoints via configuration
+02-04-2026 19:39:42.0228|INFO |Resolving eureka endpoints via configuration
+02-04-2026 19:44:42.0236|INFO |Resolving eureka endpoints via configuration
+02-04-2026 19:49:42.0249|INFO |Resolving eureka endpoints via configuration
+02-04-2026 19:54:42.0257|INFO |Resolving eureka endpoints via configuration
+02-04-2026 19:59:42.0263|INFO |Resolving eureka endpoints via configuration
+02-04-2026 20:04:42.0269|INFO |Resolving eureka endpoints via configuration
+02-04-2026 20:09:42.0287|INFO |Resolving eureka endpoints via configuration
+02-04-2026 20:14:42.0296|INFO |Resolving eureka endpoints via configuration
+02-04-2026 20:19:42.0301|INFO |Resolving eureka endpoints via configuration
+02-04-2026 20:24:42.0312|INFO |Resolving eureka endpoints via configuration
+02-04-2026 20:29:42.0329|INFO |Resolving eureka endpoints via configuration
+02-04-2026 20:34:42.0336|INFO |Resolving eureka endpoints via configuration
