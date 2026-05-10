@@ -1,8 +1,5 @@
 package tn.com.st2i.project.administration.model;
-
-
 import java.util.List;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -21,7 +18,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-
 @Entity
 @Table(name = "adm_profil")
 public class AdmProfil implements java.io.Serializable, Cloneable {

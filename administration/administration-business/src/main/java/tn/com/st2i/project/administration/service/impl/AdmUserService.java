@@ -230,8 +230,21 @@ public class AdmUserService implements IAdmUserService {
     @Override
     public SendObject updateUserWs(AdmUser user) {
         try {
+            if (user.getId() != null && (user.getPwd() == null || user.getPwd().trim().isEmpty())) {
+                admUserRepository.findById(user.getId())
+                        .ifPresent(u -> user.setPwd(u.getPwd()));
+            }
 
-            return utilsWs.resultWs(ConstanteWs._CODE_WS_SUCCESS, new JSONObject(user));
+            if (user.getPwd() != null && !user.getPwd().startsWith("$2a$")) {
+                user.setPwd(new BCryptPasswordEncoder().encode(user.getPwd()));
+            }
+
+            user.setDateUpdate(new Date());
+
+            AdmUser result = admUserRepository.save(user);
+
+            return utilsWs.resultWs(ConstanteWs._CODE_WS_SUCCESS, new JSONObject(result));
+
         } catch (Exception argEx) {
             logger.error("Error AdmUserService in method updateUserWs :: " + argEx.toString());
             return utilsWs.resultWs(ConstanteWs._CODE_WS_ERROR_IN_METHOD, new JSONObject());

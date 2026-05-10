@@ -1,0 +1,169 @@
+22-04-2026 20:13:01.0827|INFO |The Class-Path manifest attribute in C:\Users\rania\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+22-04-2026 20:13:01.0832|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22-04-2026 20:13:01.0832|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22-04-2026 20:13:05.0939|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-04-2026 20:13:06.0438|INFO |Finished Spring Data repository scanning in 484 ms. Found 14 JPA repository interfaces.
+22-04-2026 20:13:07.0209|INFO |BeanFactory id=a639bb80-ea1a-3ad9-a3f4-e7868f41c1e4
+22-04-2026 20:13:08.0628|INFO |Tomcat initialized with port(s): 8060 (http)
+22-04-2026 20:13:08.0652|INFO |Starting service [Tomcat]
+22-04-2026 20:13:08.0654|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+22-04-2026 20:13:09.0418|INFO |At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-04-2026 20:13:09.0432|INFO |Initializing Spring embedded WebApplicationContext
+22-04-2026 20:13:09.0432|INFO |Root WebApplicationContext: initialization completed in 7598 ms
+22-04-2026 20:13:10.0090|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+22-04-2026 20:13:10.0240|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+22-04-2026 20:13:10.0692|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-04-2026 20:13:11.0033|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+22-04-2026 20:13:12.0827|INFO |HikariPool-1 - Starting...
+22-04-2026 20:13:13.0132|INFO |HikariPool-1 - Start completed.
+22-04-2026 20:13:13.0259|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-04-2026 20:13:13.0281|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-04-2026 20:13:18.0649|INFO |Eureka HTTP Client uses RestTemplate.
+22-04-2026 20:13:18.0822|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+22-04-2026 20:13:18.0905|INFO |Setting initial instance status as: STARTING
+22-04-2026 20:13:18.0998|INFO |Initializing Eureka in region us-east-1
+22-04-2026 20:13:19.0011|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:13:19.0067|INFO |Disable delta property : false
+22-04-2026 20:13:19.0068|INFO |Single vip registry refresh property : null
+22-04-2026 20:13:19.0068|INFO |Force full registry fetch : false
+22-04-2026 20:13:19.0068|INFO |Application is null : false
+22-04-2026 20:13:19.0068|INFO |Registered Applications size is zero : true
+22-04-2026 20:13:19.0068|INFO |Application version is -1: true
+22-04-2026 20:13:19.0068|INFO |Getting all instance registry info from the eureka server
+22-04-2026 20:13:19.0749|INFO |The response status is 200
+22-04-2026 20:13:19.0755|INFO |Starting heartbeat executor: renew interval is: 30
+22-04-2026 20:13:19.0760|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-04-2026 20:13:19.0770|INFO |Discovery Client initialized at timestamp 1776885199767 with initial instances count: 0
+22-04-2026 20:13:19.0773|INFO |Registering application ADMINISTRATION-SERVICE with eureka with status UP
+22-04-2026 20:13:19.0774|INFO |Saw local status change event StatusChangeEvent [timestamp=1776885199774, current=UP, previous=STARTING]
+22-04-2026 20:13:19.0777|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060: registering service...
+22-04-2026 20:13:19.0838|INFO |Tomcat started on port(s): 8060 (http) with context path ''
+22-04-2026 20:13:19.0839|INFO |Updating port to 8060
+22-04-2026 20:13:19.0856|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060 - registration status: 204
+22-04-2026 20:13:19.0897|INFO |Starting Completed ...
+22-04-2026 20:13:23.0173|INFO |The Class-Path manifest attribute in C:\Users\rania\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+22-04-2026 20:13:23.0177|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22-04-2026 20:13:23.0178|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22-04-2026 20:13:25.0932|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-04-2026 20:13:26.0384|INFO |Finished Spring Data repository scanning in 432 ms. Found 12 JPA repository interfaces.
+22-04-2026 20:13:27.0028|INFO |BeanFactory id=74b387d1-e6b4-3ec6-93fb-093986ce2e9d
+22-04-2026 20:13:28.0373|INFO |Tomcat initialized with port(s): 8063 (http)
+22-04-2026 20:13:28.0391|INFO |Starting service [Tomcat]
+22-04-2026 20:13:28.0393|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+22-04-2026 20:13:28.0823|INFO |At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-04-2026 20:13:28.0829|INFO |Initializing Spring embedded WebApplicationContext
+22-04-2026 20:13:28.0830|INFO |Root WebApplicationContext: initialization completed in 5651 ms
+22-04-2026 20:13:29.0256|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+22-04-2026 20:13:29.0343|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+22-04-2026 20:13:29.0672|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-04-2026 20:13:29.0927|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+22-04-2026 20:13:31.0886|INFO |HikariPool-1 - Starting...
+22-04-2026 20:13:32.0203|INFO |HikariPool-1 - Start completed.
+22-04-2026 20:13:32.0594|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-04-2026 20:13:32.0616|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-04-2026 20:13:35.0622|INFO |Eureka HTTP Client uses RestTemplate.
+22-04-2026 20:13:35.0825|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+22-04-2026 20:13:35.0897|INFO |Setting initial instance status as: STARTING
+22-04-2026 20:13:36.0002|INFO |Initializing Eureka in region us-east-1
+22-04-2026 20:13:36.0013|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:13:36.0096|INFO |Disable delta property : false
+22-04-2026 20:13:36.0097|INFO |Single vip registry refresh property : null
+22-04-2026 20:13:36.0097|INFO |Force full registry fetch : false
+22-04-2026 20:13:36.0098|INFO |Application is null : false
+22-04-2026 20:13:36.0101|INFO |Registered Applications size is zero : true
+22-04-2026 20:13:36.0103|INFO |Application version is -1: true
+22-04-2026 20:13:36.0103|INFO |Getting all instance registry info from the eureka server
+22-04-2026 20:13:36.0967|INFO |The response status is 200
+22-04-2026 20:13:36.0980|INFO |Starting heartbeat executor: renew interval is: 30
+22-04-2026 20:13:36.0984|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+22-04-2026 20:13:36.0993|INFO |Discovery Client initialized at timestamp 1776885216992 with initial instances count: 2
+22-04-2026 20:13:36.0997|INFO |Registering application ETABLISSEMENT-SERVICE with eureka with status UP
+22-04-2026 20:13:36.0998|INFO |Saw local status change event StatusChangeEvent [timestamp=1776885216998, current=UP, previous=STARTING]
+22-04-2026 20:13:37.0007|INFO |DiscoveryClient_ETABLISSEMENT-SERVICE/RANIA:etablissement-service:8063: registering service...
+22-04-2026 20:13:37.0060|INFO |Tomcat started on port(s): 8063 (http) with context path ''
+22-04-2026 20:13:37.0061|INFO |Updating port to 8063
+22-04-2026 20:13:37.0106|INFO |DiscoveryClient_ETABLISSEMENT-SERVICE/RANIA:etablissement-service:8063 - registration status: 204
+22-04-2026 20:13:37.0129|INFO |Starting Completed ...
+22-04-2026 20:13:49.0773|INFO |Disable delta property : false
+22-04-2026 20:13:49.0774|INFO |Single vip registry refresh property : null
+22-04-2026 20:13:49.0774|INFO |Force full registry fetch : false
+22-04-2026 20:13:49.0774|INFO |Application is null : false
+22-04-2026 20:13:49.0774|INFO |Registered Applications size is zero : true
+22-04-2026 20:13:49.0774|INFO |Application version is -1: false
+22-04-2026 20:13:49.0774|INFO |Getting all instance registry info from the eureka server
+22-04-2026 20:13:49.0806|INFO |The response status is 200
+22-04-2026 20:15:12.0079|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-04-2026 20:15:12.0079|INFO |Initializing Servlet 'dispatcherServlet'
+22-04-2026 20:15:12.0096|INFO |Completed initialization in 17 ms
+22-04-2026 20:18:19.0082|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:18:36.0112|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:23:19.0095|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:23:36.0131|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:28:19.0111|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:28:36.0145|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:33:19.0146|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:33:36.0162|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:38:19.0158|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:38:36.0171|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:43:19.0176|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:43:36.0178|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:48:19.0185|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:48:36.0192|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:53:19.0188|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:53:36.0203|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:58:19.0197|INFO |Resolving eureka endpoints via configuration
+22-04-2026 20:58:36.0218|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:03:19.0207|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:03:36.0237|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:08:19.0214|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:08:36.0262|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:13:19.0219|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:13:36.0264|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:18:19.0226|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:18:36.0266|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:23:19.0242|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:23:36.0273|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:28:19.0256|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:28:36.0278|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:33:19.0267|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:33:36.0290|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:38:19.0274|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:38:36.0306|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:40:05.0761|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+22-04-2026 21:40:05.0761|INFO |Initializing Servlet 'dispatcherServlet'
+22-04-2026 21:40:05.0778|INFO |Completed initialization in 17 ms
+22-04-2026 21:43:19.0290|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:43:36.0314|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:48:19.0296|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:48:36.0327|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:53:19.0304|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:53:36.0342|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:58:19.0315|INFO |Resolving eureka endpoints via configuration
+22-04-2026 21:58:36.0360|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:03:19.0332|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:03:36.0370|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:08:19.0346|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:08:36.0379|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:13:19.0361|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:13:36.0382|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:18:19.0372|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:18:36.0401|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:23:19.0384|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:23:36.0406|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:28:19.0399|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:28:36.0421|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:32:35.0780|INFO |Unregistering application ETABLISSEMENT-SERVICE with eureka with status DOWN
+22-04-2026 22:32:35.0780|INFO |Saw local status change event StatusChangeEvent [timestamp=1776893555780, current=DOWN, previous=UP]
+22-04-2026 22:32:35.0782|INFO |DiscoveryClient_ETABLISSEMENT-SERVICE/RANIA:etablissement-service:8063: registering service...
+22-04-2026 22:32:35.0824|INFO |DiscoveryClient_ETABLISSEMENT-SERVICE/RANIA:etablissement-service:8063 - registration status: 204
+22-04-2026 22:32:35.0830|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+22-04-2026 22:32:35.0838|INFO |HikariPool-1 - Shutdown initiated...
+22-04-2026 22:32:35.0844|INFO |HikariPool-1 - Shutdown completed.
+22-04-2026 22:32:35.0848|INFO |Shutting down DiscoveryClient ...
+22-04-2026 22:32:38.0857|INFO |Unregistering ...
+22-04-2026 22:32:38.0917|INFO |DiscoveryClient_ETABLISSEMENT-SERVICE/RANIA:etablissement-service:8063 - deregister  status: 200
+22-04-2026 22:32:38.0921|INFO |Completed shut down of DiscoveryClient
+22-04-2026 22:33:19.0406|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:38:19.0419|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:43:19.0423|INFO |Resolving eureka endpoints via configuration
+22-04-2026 22:48:19.0438|INFO |Resolving eureka endpoints via configuration

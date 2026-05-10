@@ -35,7 +35,8 @@ public class AdmUser implements java.io.Serializable, Cloneable {
 
 	@Column(name = "user_name", nullable = false, length = 300)
 	private String username;
-
+    @Column(name = "name_ar", length = 300)
+    private String nameAr;
 	@Column(name = "id_sex", nullable = false)
 	private Integer idSex;
 

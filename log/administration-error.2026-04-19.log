@@ -1,4 +1,26 @@
-15-04-2026 10:04:43.0000|ERROR|DiscoveryClient_ETABLISSEMENT-SERVICE/RANIA:etablissement-service:8063 - de-registration failedCannot execute request on any known server
+19-04-2026 12:51:27.0300|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:51:27.0339|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:51:29.0618|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:51:53.0352|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:51:53.0396|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:53:10.0127|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:53:57.0312|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:53:57.0357|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:54:16.0435|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:54:46.0036|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:54:46.0091|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:54:46.0123|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:56:09.0856|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:56:17.0177|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:56:17.0231|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:56:17.0266|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:57:44.0183|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:57:44.0214|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:57:44.0241|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:57:48.0052|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 12:58:14.0471|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 13:02:23.0839|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+19-04-2026 23:31:29.0363|ERROR|DiscoveryClient_ETABLISSEMENT-SERVICE/RANIA:etablissement-service:8063 - de-registration failedCannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
@@ -30,7 +52,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
 	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-15-04-2026 10:04:43.0153|ERROR|DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060 - de-registration failedCannot execute request on any known server
+19-04-2026 23:31:29.0363|ERROR|DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060 - de-registration failedCannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
@@ -62,5 +84,3 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
 	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-15-04-2026 23:53:24.0878|ERROR|Error AdmUserService in method saveOrUpdate :: org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value : tn.com.st2i.project.administration.model.AdmUser.pwd; nested exception is org.hibernate.PropertyValueException: not-null property references a null or transient value : tn.com.st2i.project.administration.model.AdmUser.pwd
-15-04-2026 23:54:16.0919|ERROR|Error AdmUserService in method saveOrUpdate :: org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value : tn.com.st2i.project.administration.model.AdmUser.pwd; nested exception is org.hibernate.PropertyValueException: not-null property references a null or transient value : tn.com.st2i.project.administration.model.AdmUser.pwd

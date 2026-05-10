@@ -1,4 +1,22 @@
-15-04-2026 10:04:43.0000|ERROR|DiscoveryClient_ETABLISSEMENT-SERVICE/RANIA:etablissement-service:8063 - de-registration failedCannot execute request on any known server
+24-04-2026 21:39:05.0828|ERROR|ERREUR: la colonne etablissem0_.libelle_ar n'existe pas
+  Position : 184
+24-04-2026 21:39:05.0845|ERROR|Error EtablissementService in method getList :: org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+24-04-2026 21:39:11.0546|ERROR|ERREUR: la colonne etablissem0_.libelle_ar n'existe pas
+  Position : 184
+24-04-2026 21:39:11.0549|ERROR|Error EtablissementService in method getList :: org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+24-04-2026 21:39:29.0454|ERROR|ERREUR: la colonne etablissem0_.libelle_ar n'existe pas
+  Position : 184
+24-04-2026 21:39:29.0460|ERROR|Error EtablissementService in method getList :: org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+24-04-2026 21:40:00.0794|ERROR|ERREUR: la colonne etablissem0_.libelle_ar n'existe pas
+  Position : 184
+24-04-2026 21:40:00.0825|ERROR|Error EtablissementService in method getList :: org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+24-04-2026 22:11:49.0753|ERROR|ERREUR: une valeur NULL viole la contrainte NOT NULL de la colonne « name » dans la relation « etablissement »
+  Détail : La ligne en échec contient (10, mourouj 6 , ben arous, test, null, 4, 100, null, etbtest, etbtest, 0).
+24-04-2026 22:11:49.0766|ERROR|Error EtablissementService in method saveOrUpdateEtablissementWs :: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+24-04-2026 22:24:05.0137|ERROR|ERREUR: une valeur NULL viole la contrainte NOT NULL de la colonne « name » dans la relation « etablissement »
+  Détail : La ligne en échec contient (11, mourouj 6 , ben arous, test, null, 4, 100, 1, etbtest, etbtest, 0).
+24-04-2026 22:24:05.0147|ERROR|Error EtablissementService in method saveOrUpdateEtablissementWs :: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+24-04-2026 23:59:11.0236|ERROR|DiscoveryClient_ETABLISSEMENT-SERVICE/RANIA:etablissement-service:8063 - de-registration failedCannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
@@ -30,7 +48,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
 	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-15-04-2026 10:04:43.0153|ERROR|DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060 - de-registration failedCannot execute request on any known server
+24-04-2026 23:59:11.0435|ERROR|DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060 - de-registration failedCannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
@@ -62,5 +80,3 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
 	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-15-04-2026 23:53:24.0878|ERROR|Error AdmUserService in method saveOrUpdate :: org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value : tn.com.st2i.project.administration.model.AdmUser.pwd; nested exception is org.hibernate.PropertyValueException: not-null property references a null or transient value : tn.com.st2i.project.administration.model.AdmUser.pwd
-15-04-2026 23:54:16.0919|ERROR|Error AdmUserService in method saveOrUpdate :: org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value : tn.com.st2i.project.administration.model.AdmUser.pwd; nested exception is org.hibernate.PropertyValueException: not-null property references a null or transient value : tn.com.st2i.project.administration.model.AdmUser.pwd
