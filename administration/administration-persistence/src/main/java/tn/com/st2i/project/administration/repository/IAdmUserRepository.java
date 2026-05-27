@@ -16,6 +16,6 @@ public interface IAdmUserRepository extends JpaRepository<AdmUser, Long> {
 
     @Query("select case when count(u) > 0 then false else true end from AdmUser u where u.code=:code ")
     public Boolean uniqueAdmUserByCode(@Param("code") String code);
-    
+
 
 }

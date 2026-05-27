@@ -23,7 +23,6 @@ import tn.com.st2i.project.tools.model.SendObject;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class AdmUserService implements IAdmUserService {
@@ -250,7 +249,6 @@ public class AdmUserService implements IAdmUserService {
             return utilsWs.resultWs(ConstanteWs._CODE_WS_ERROR_IN_METHOD, new JSONObject());
         }
     }
-
 
 
 

@@ -3,6 +3,9 @@ package tn.com.st2i.project.administration.model;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.*;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
@@ -24,6 +27,7 @@ public class AdmUser implements java.io.Serializable, Cloneable {
 	@Column(name = "id", unique = true, nullable = false)
 	private Long id;
 
+	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
 	@Column(name = "pwd", nullable = false, length = 100)
 	private String pwd;
 
