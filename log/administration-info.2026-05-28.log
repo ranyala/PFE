@@ -1,0 +1,364 @@
+28-05-2026 10:23:33.0540|INFO |The Class-Path manifest attribute in C:\Users\rania\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+28-05-2026 10:23:33.0544|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+28-05-2026 10:23:33.0545|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+28-05-2026 10:23:36.0341|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28-05-2026 10:23:36.0592|INFO |Finished Spring Data repository scanning in 241 ms. Found 14 JPA repository interfaces.
+28-05-2026 10:23:36.0984|INFO |BeanFactory id=a639bb80-ea1a-3ad9-a3f4-e7868f41c1e4
+28-05-2026 10:23:39.0556|INFO |Tomcat initialized with port(s): 8060 (http)
+28-05-2026 10:23:39.0575|INFO |Starting service [Tomcat]
+28-05-2026 10:23:39.0576|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+28-05-2026 10:23:40.0353|INFO |At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-05-2026 10:23:40.0365|INFO |Initializing Spring embedded WebApplicationContext
+28-05-2026 10:23:40.0366|INFO |Root WebApplicationContext: initialization completed in 6819 ms
+28-05-2026 10:23:41.0007|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+28-05-2026 10:23:41.0160|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+28-05-2026 10:23:41.0577|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+28-05-2026 10:23:42.0059|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+28-05-2026 10:23:44.0676|INFO |HikariPool-1 - Starting...
+28-05-2026 10:23:44.0970|INFO |HikariPool-1 - Start completed.
+28-05-2026 10:23:45.0131|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+28-05-2026 10:23:45.0154|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+28-05-2026 10:23:45.0550|INFO |The Class-Path manifest attribute in C:\Users\rania\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/rania/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+28-05-2026 10:23:45.0559|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+28-05-2026 10:23:45.0559|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+28-05-2026 10:23:58.0187|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28-05-2026 10:24:02.0228|INFO |Finished Spring Data repository scanning in 3967 ms. Found 29 JPA repository interfaces.
+28-05-2026 10:24:04.0584|INFO |Eureka HTTP Client uses RestTemplate.
+28-05-2026 10:24:05.0510|INFO |BeanFactory id=18f72454-71ca-37b4-a21b-45b8c48432f1
+28-05-2026 10:24:05.0560|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+28-05-2026 10:24:05.0833|INFO |Setting initial instance status as: STARTING
+28-05-2026 10:24:06.0068|INFO |Initializing Eureka in region us-east-1
+28-05-2026 10:24:06.0119|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:24:06.0305|INFO |Disable delta property : false
+28-05-2026 10:24:06.0308|INFO |Single vip registry refresh property : null
+28-05-2026 10:24:06.0310|INFO |Force full registry fetch : false
+28-05-2026 10:24:06.0310|INFO |Application is null : false
+28-05-2026 10:24:06.0310|INFO |Registered Applications size is zero : true
+28-05-2026 10:24:06.0310|INFO |Application version is -1: true
+28-05-2026 10:24:06.0311|INFO |Getting all instance registry info from the eureka server
+28-05-2026 10:24:07.0832|INFO |The response status is 200
+28-05-2026 10:24:07.0840|INFO |Starting heartbeat executor: renew interval is: 30
+28-05-2026 10:24:07.0855|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+28-05-2026 10:24:07.0877|INFO |Discovery Client initialized at timestamp 1779960247875 with initial instances count: 1
+28-05-2026 10:24:07.0891|INFO |Registering application ADMINISTRATION-SERVICE with eureka with status UP
+28-05-2026 10:24:07.0893|INFO |Saw local status change event StatusChangeEvent [timestamp=1779960247893, current=UP, previous=STARTING]
+28-05-2026 10:24:07.0899|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060: registering service...
+28-05-2026 10:24:08.0108|INFO |Tomcat started on port(s): 8060 (http) with context path ''
+28-05-2026 10:24:08.0110|INFO |Updating port to 8060
+28-05-2026 10:24:08.0128|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/RANIA:administration-service:8060 - registration status: 204
+28-05-2026 10:24:08.0207|INFO |Starting Completed ...
+28-05-2026 10:24:08.0794|INFO |Tomcat initialized with port(s): 8063 (http)
+28-05-2026 10:24:08.0821|INFO |Starting service [Tomcat]
+28-05-2026 10:24:08.0841|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+28-05-2026 10:24:09.0938|INFO |At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-05-2026 10:24:09.0953|INFO |Initializing Spring embedded WebApplicationContext
+28-05-2026 10:24:09.0953|INFO |Root WebApplicationContext: initialization completed in 24392 ms
+28-05-2026 10:24:10.0681|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+28-05-2026 10:24:10.0847|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+28-05-2026 10:24:11.0372|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+28-05-2026 10:24:11.0858|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+28-05-2026 10:24:15.0859|INFO |HikariPool-1 - Starting...
+28-05-2026 10:24:16.0191|INFO |HikariPool-1 - Start completed.
+28-05-2026 10:24:16.0731|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+28-05-2026 10:24:16.0751|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+28-05-2026 10:24:20.0678|INFO |Eureka HTTP Client uses RestTemplate.
+28-05-2026 10:24:20.0808|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+28-05-2026 10:24:20.0893|INFO |Setting initial instance status as: STARTING
+28-05-2026 10:24:20.0992|INFO |Initializing Eureka in region us-east-1
+28-05-2026 10:24:21.0002|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:24:21.0059|INFO |Disable delta property : false
+28-05-2026 10:24:21.0059|INFO |Single vip registry refresh property : null
+28-05-2026 10:24:21.0059|INFO |Force full registry fetch : false
+28-05-2026 10:24:21.0059|INFO |Application is null : false
+28-05-2026 10:24:21.0059|INFO |Registered Applications size is zero : true
+28-05-2026 10:24:21.0059|INFO |Application version is -1: true
+28-05-2026 10:24:21.0059|INFO |Getting all instance registry info from the eureka server
+28-05-2026 10:24:21.0601|INFO |The response status is 200
+28-05-2026 10:24:21.0608|INFO |Starting heartbeat executor: renew interval is: 30
+28-05-2026 10:24:21.0613|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+28-05-2026 10:24:21.0622|INFO |Discovery Client initialized at timestamp 1779960261621 with initial instances count: 1
+28-05-2026 10:24:21.0622|INFO |Registering application ETABLISSEMENT-SERVICE with eureka with status UP
+28-05-2026 10:24:21.0622|INFO |Saw local status change event StatusChangeEvent [timestamp=1779960261622, current=UP, previous=STARTING]
+28-05-2026 10:24:21.0622|INFO |DiscoveryClient_ETABLISSEMENT-SERVICE/RANIA:etablissement-service:8063: registering service...
+28-05-2026 10:24:21.0687|INFO |Tomcat started on port(s): 8063 (http) with context path ''
+28-05-2026 10:24:21.0688|INFO |Updating port to 8063
+28-05-2026 10:24:21.0704|INFO |DiscoveryClient_ETABLISSEMENT-SERVICE/RANIA:etablissement-service:8063 - registration status: 204
+28-05-2026 10:24:21.0721|INFO |Starting Completed ...
+28-05-2026 10:29:06.0334|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:29:21.0078|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:34:06.0338|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:34:21.0088|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:39:06.0347|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:39:21.0111|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:44:06.0357|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:44:21.0127|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:49:06.0373|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:49:21.0142|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:54:06.0391|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:54:21.0162|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:59:06.0396|INFO |Resolving eureka endpoints via configuration
+28-05-2026 10:59:21.0191|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:04:06.0405|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:04:21.0197|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:09:06.0407|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:09:21.0349|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:14:06.0413|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:14:21.0362|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:19:06.0422|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:19:21.0370|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:24:06.0438|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:24:21.0373|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:29:06.0447|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:29:21.0389|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:34:06.0462|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:34:21.0395|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:34:55.0117|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+28-05-2026 11:34:55.0118|INFO |Initializing Servlet 'dispatcherServlet'
+28-05-2026 11:34:55.0124|INFO |Completed initialization in 6 ms
+28-05-2026 11:34:57.0630|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+28-05-2026 11:34:57.0630|INFO |Initializing Servlet 'dispatcherServlet'
+28-05-2026 11:34:57.0643|INFO |Completed initialization in 12 ms
+28-05-2026 11:39:06.0473|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:39:21.0410|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:44:06.0479|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:44:21.0417|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:49:06.0489|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:49:21.0430|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:54:06.0503|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:54:21.0437|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:59:06.0532|INFO |Resolving eureka endpoints via configuration
+28-05-2026 11:59:21.0443|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:04:06.0538|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:04:21.0453|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:09:06.0547|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:09:21.0471|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:14:06.0582|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:14:21.0488|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:19:06.0593|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:19:21.0501|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:24:06.0601|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:24:21.0516|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:29:06.0614|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:29:21.0529|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:34:06.0625|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:34:21.0536|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:39:06.0637|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:39:21.0538|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:44:06.0653|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:44:21.0556|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:49:06.0664|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:49:21.0559|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:54:06.0679|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:54:21.0568|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:59:06.0685|INFO |Resolving eureka endpoints via configuration
+28-05-2026 12:59:21.0579|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:04:06.0702|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:04:21.0596|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:09:06.0715|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:09:21.0610|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:14:06.0721|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:14:21.0622|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:19:06.0737|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:19:21.0632|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:24:06.0748|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:24:21.0658|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:29:06.0751|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:29:21.0666|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:34:06.0760|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:34:21.0677|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:39:06.0775|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:39:21.0695|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:44:06.0790|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:44:21.0711|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:49:06.0818|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:49:21.0738|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:54:06.0833|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:54:21.0766|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:59:06.0849|INFO |Resolving eureka endpoints via configuration
+28-05-2026 13:59:21.0779|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:04:06.0859|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:04:21.0783|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:09:06.0873|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:09:21.0798|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:14:06.0881|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:14:21.0812|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:19:06.0970|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:19:21.0826|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:24:06.0980|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:24:21.0836|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:29:06.0987|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:29:21.0850|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:34:07.0001|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:34:21.0864|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:39:07.0016|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:39:21.0874|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:44:07.0033|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:44:21.0886|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:49:07.0035|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:49:21.0901|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:54:07.0043|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:54:21.0903|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:59:07.0045|INFO |Resolving eureka endpoints via configuration
+28-05-2026 14:59:21.0911|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:04:07.0062|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:04:21.0920|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:09:07.0077|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:09:21.0931|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:14:07.0088|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:14:21.0936|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:19:07.0092|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:19:21.0939|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:24:07.0101|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:24:21.0948|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:29:07.0110|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:29:21.0959|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:34:07.0128|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:34:21.0977|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:52:12.0271|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:52:27.0124|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:57:12.0286|INFO |Resolving eureka endpoints via configuration
+28-05-2026 15:57:27.0132|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:02:12.0292|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:02:27.0144|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:07:12.0308|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:07:27.0156|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:12:12.0324|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:12:27.0172|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:17:12.0328|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:17:27.0176|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:22:12.0340|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:22:27.0188|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:27:12.0343|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:27:27.0204|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:32:12.0351|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:32:27.0223|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:37:12.0364|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:37:27.0228|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:42:12.0370|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:42:27.0237|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:47:12.0373|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:47:27.0243|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:52:12.0386|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:52:27.0256|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:57:12.0390|INFO |Resolving eureka endpoints via configuration
+28-05-2026 16:57:27.0265|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:02:12.0398|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:02:27.0270|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:07:12.0415|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:07:27.0278|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:12:12.0435|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:12:27.0305|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:17:12.0451|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:17:27.0323|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:22:12.0464|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:22:27.0335|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:27:12.0475|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:27:27.0350|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:32:12.0487|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:32:27.0357|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:37:12.0501|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:37:27.0373|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:42:12.0514|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:42:27.0388|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:47:12.0522|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:47:27.0406|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:52:12.0531|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:52:27.0411|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:57:12.0552|INFO |Resolving eureka endpoints via configuration
+28-05-2026 17:57:27.0424|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:02:12.0560|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:02:27.0443|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:07:12.0575|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:07:27.0459|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:12:12.0588|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:12:27.0473|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:17:12.0604|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:17:27.0488|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:22:12.0628|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:22:27.0506|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:27:12.0645|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:27:27.0524|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:32:12.0652|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:32:27.0533|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:37:12.0664|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:37:27.0542|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:42:12.0674|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:42:27.0558|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:47:12.0677|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:47:27.0576|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:52:12.0684|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:52:27.0884|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:57:12.0694|INFO |Resolving eureka endpoints via configuration
+28-05-2026 18:57:27.0889|INFO |Resolving eureka endpoints via configuration
+28-05-2026 19:02:12.0706|INFO |Resolving eureka endpoints via configuration
+28-05-2026 19:02:27.0906|INFO |Resolving eureka endpoints via configuration
+28-05-2026 19:07:12.0716|INFO |Resolving eureka endpoints via configuration
+28-05-2026 19:07:27.0908|INFO |Resolving eureka endpoints via configuration
+28-05-2026 19:12:12.0723|INFO |Resolving eureka endpoints via configuration
+28-05-2026 19:12:27.0927|INFO |Resolving eureka endpoints via configuration
+28-05-2026 19:17:12.0740|INFO |Resolving eureka endpoints via configuration
+28-05-2026 19:17:27.0941|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:24:03.0142|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:24:18.0352|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:29:03.0153|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:29:18.0371|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:34:03.0159|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:34:18.0381|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:39:03.0162|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:39:18.0391|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:44:03.0171|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:44:18.0396|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:49:03.0179|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:49:18.0413|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:54:03.0186|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:54:18.0419|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:59:03.0202|INFO |Resolving eureka endpoints via configuration
+28-05-2026 21:59:18.0424|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:04:03.0224|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:04:18.0437|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:09:03.0230|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:09:18.0447|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:14:03.0233|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:14:18.0462|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:19:03.0242|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:19:18.0476|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:24:03.0257|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:24:18.0494|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:29:03.0265|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:29:18.0500|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:34:03.0311|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:34:18.0511|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:39:03.0324|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:39:18.0517|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:44:03.0336|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:44:18.0532|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:49:03.0349|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:49:18.0541|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:54:03.0360|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:54:18.0552|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:59:03.0374|INFO |Resolving eureka endpoints via configuration
+28-05-2026 22:59:18.0567|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:04:03.0380|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:04:18.0573|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:09:03.0390|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:09:18.0587|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:14:03.0394|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:14:18.0596|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:19:03.0407|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:19:18.0605|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:24:03.0410|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:24:18.0637|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:29:03.0417|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:29:18.0658|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:34:03.0438|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:34:18.0669|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:39:03.0442|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:39:18.0683|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:44:03.0457|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:44:18.0692|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:49:03.0470|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:49:18.0710|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:54:03.0478|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:54:18.0713|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:59:03.0484|INFO |Resolving eureka endpoints via configuration
+28-05-2026 23:59:18.0719|INFO |Resolving eureka endpoints via configuration

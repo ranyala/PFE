@@ -1,0 +1,5 @@
+28-05-2026 12:36:29.0167|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+28-05-2026 12:38:16.0971|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+28-05-2026 12:38:17.0040|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+28-05-2026 12:38:17.0071|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
+28-05-2026 12:39:49.0585|ERROR|Error CommonDao in method executionHibernate of class tn.com.st2i.project.administration.model.AdmProfil  unique result  :: javax.persistence.NoResultException: No entity found for query
