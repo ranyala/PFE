@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableJpaAuditing
 @EnableEurekaClient
 @SpringBootApplication
-public class AdministrationApplication {
+public class    AdministrationApplication {
 	private static final Logger logger = LogManager.getLogger(AdministrationApplication.class);
 	public static void main(String[] args) {
 		SpringApplication.run(AdministrationApplication.class, args);

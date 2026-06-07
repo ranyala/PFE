@@ -1,0 +1,10 @@
+07-06-2026 13:01:53.0389|ERROR|ERREUR: une instruction insert ou update sur la table « candidature_piece » viole la contrainte de clé
+étrangère « fkgh98e3rttpij01mqxdxtpyx8w »
+  Détail : La clé (id_piece_justificative)=(3) n'est pas présente dans la table « piece_justificative ».
+07-06-2026 13:01:53.0406|ERROR|Error uploadPieceWs :: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+07-06-2026 13:42:16.0639|ERROR|ERREUR: une instruction insert ou update sur la table « candidature_piece » viole la contrainte de clé
+étrangère « fkgh98e3rttpij01mqxdxtpyx8w »
+  Détail : La clé (id_piece_justificative)=(3) n'est pas présente dans la table « piece_justificative ».
+07-06-2026 13:42:16.0659|ERROR|Error uploadPieceWs :: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+07-06-2026 18:55:17.0930|ERROR|Error calculerScoresWs :: java.lang.NullPointerException: Cannot invoke "tn.com.st2i.project.etablissement.repository.IPosteVacantRepository.findByMouvement_Id(java.lang.Long)" because "posteVacantRepository" is null
+07-06-2026 18:59:43.0822|ERROR|Error calculerScoresWs :: java.lang.IllegalStateException: No instances available for localhost
